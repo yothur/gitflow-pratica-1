@@ -86,52 +86,6 @@ h1 span {
   user-select: none;
 }
 
-.input-row {
-  width: 100%;
-  max-width: 620px;
-  display: flex;
-  gap: 0;
-  margin-bottom: 32px;
-}
-
-.input-row input[type="text"] {
-  flex: 1;
-  border: 2px solid var(--ink);
-  border-right: none;
-  background: var(--card);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  padding: 14px 16px;
-  outline: none;
-  color: var(--ink);
-  transition: background 0.15s;
-}
-
-.input-row input[type="text"]::placeholder {
-  color: var(--muted);
-  font-style: italic;
-}
-
-.input-row input[type="text"]:focus {
-  background: #fff;
-}
-
-.btn-add {
-  border: 2px solid var(--ink);
-  background: var(--accent);
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 14px 22px;
-  cursor: pointer;
-  transition: background 0.15s, transform 0.1s;
-  letter-spacing: -0.02em;
-}
-
-.btn-add:hover { background: #a33509; }
-.btn-add:active { transform: scale(0.97); }
-
 .task-list {
   width: 100%;
   max-width: 620px;
@@ -218,27 +172,6 @@ h1 span {
 }
 
 .btn-del:hover { color: var(--accent); }
-
-.empty {
-  width: 100%;
-  max-width: 620px;
-  text-align: center;
-  padding: 48px 0 24px;
-  display: none;
-}
-
-.empty-icon {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 12px;
-}
-
-.empty p {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.15rem;
-  font-style: italic;
-  color: var(--muted);
-}
 
 main {
   width: 100%;
